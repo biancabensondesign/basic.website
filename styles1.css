@@ -1,0 +1,158 @@
+
+body {
+    font-family: "MaaxRounded regular", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #DDE5ED;
+    background-color: #003D4C;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #003D4C;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #F8485E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #DDE5ED;
+    color: #003D4C;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* This is a comment, by the way */
+
+p {
+    line-height: 21px;
+    text-align: center;
+}
+
+h1 {
+    color: #003D4C;
+    background-color: #003D4C;
+    font-size: 2em;
+    color: #DDE5ED;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-family: "Maax Rounded";
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #003D4C;
+}
+
+h2 {
+    color: #DDE5ED;
+    background-color: #003D4C;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: #DDE5ED;
+    font-size: 1.25em;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px 50px 80px; }
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-style: serif;
+    text-transform: uppercase;
+}
+
+li {
+    color: #003D4C;
+    font-style: sans-serif;
+}
+
+table {
+    background-color: #DDE5ED;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #DDE5ED;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #F8485E;
+  border-color: #DDE5ED;
+  outline: 0; }
+  button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #DDE5ED; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #DDE5ED; }
